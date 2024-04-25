@@ -18,6 +18,11 @@
   <name>spring-microservices</name>
   <packaging>pom</packaging>
 
+  <modules>
+    <module>microservice-gateway</module>
+    <module>microservice-eureka</module>
+  </modules>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>17</maven.compiler.source>
