@@ -20,7 +20,7 @@ public class StudentServiceImp implements IStudentService{
 
     @Override
     public Student findById(Long id) {
-        // Trata de buscarlo y no se encuentra devuelve un error.
+        // Trata de buscarlo y si no se encuentra devuelve un error.
         return studentRepository.findById(id).orElseThrow();
     }
 
