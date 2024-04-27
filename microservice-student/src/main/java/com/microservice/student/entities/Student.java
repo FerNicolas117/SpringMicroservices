@@ -28,6 +28,6 @@ public class Student {
     private String lastName;
     private String email;
 
-    @Column(name = "course_name")
+    @Column(name = "course_id")
     private Long courseId;
 }
